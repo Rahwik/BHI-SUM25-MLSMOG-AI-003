@@ -33,4 +33,4 @@ features = list(generate_grid())
 gdf = gpd.GeoDataFrame(features, crs="EPSG:4326")
 gdf.to_file(output_file, driver="GeoJSON")
 
-print(f"✅ Saved 1km x 1km spatial grids to: {output_file}")
+print(f"Saved 1km x 1km spatial grids to: {output_file}")
