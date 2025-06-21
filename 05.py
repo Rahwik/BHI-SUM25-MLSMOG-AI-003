@@ -52,6 +52,6 @@ for date in daily_data["date"].unique():
     df = pd.DataFrame(interpolated).dropna(subset=["temperature_ssp245", "temperature_ssp585"])
     date_str = pd.to_datetime(date).strftime("%Y-%m-%d")
     df.to_parquet(os.path.join(output_dir, f"downscaled_{date_str}.parquet"), index=False)
-    print(f"✅ Saved: downscaled_{date_str}.parquet")
+    print(f"Saved: downscaled_{date_str}.parquet")
 
-print(f"\n✅ All CMIP6 downscaled daily grids saved to: {output_dir}")
+print(f"\nAll CMIP6 downscaled daily grids saved to: {output_dir}")
