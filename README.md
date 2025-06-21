@@ -1,4 +1,4 @@
-# BHI-SUM25-MLSMOG-AI-003\
+# BHI-SUM25-MLSMOG-AI-003
 
 This repository contains a complete pipeline for a **Transformer Implementation** focused on air quality modeling and climate impact analysis. The project gathers, cleans, and integrates multiple data sources to construct a rich, spatio-temporal dataset ready for advanced modeling.
 
