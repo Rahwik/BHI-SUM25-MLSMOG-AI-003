@@ -1,0 +1,11 @@
+pandas
+requests
+geopy
+numpy
+scipy
+geopandas
+osmnx
+beautifulsoup4
+tqdm
+tables
+lxml 
