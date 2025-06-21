@@ -64,10 +64,10 @@ for _, row in tqdm(location_df.iterrows(), total=len(location_df)):
         features_list.append(summary)
 
     except Exception as e:
-        print(f"⚠️ Skipped {county}, {state}: {e}")
+        print(f"Skipped {county}, {state}: {e}")
 
 # Save to CSV
 features_df = pd.DataFrame(features_list)
 features_df.to_csv(output_file, index=False)
 
-print(f"\n✅ Saved OSM urban features to: {output_file}")
+print(f"\nSaved OSM urban features to: {output_file}")
